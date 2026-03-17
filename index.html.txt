@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conference App</title>
+
+	<link rel="manifest" href="manifest.json">
+	<script>
+  		if ("serviceWorker" in navigator) {
+    		navigator.serviceWorker.register("service-worker.js");
+  		}
+	</script>
+
+</head>
+<body>
+    <h1>Welcome to the Conference</h1>
+    <p>Schedule, map, and notes coming soon...</p>
+</body>
+</html>
